@@ -1,0 +1,7 @@
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\bin\Debug\BasicTree.exe.config
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\bin\Debug\BasicTree.exe
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\bin\Debug\BasicTree.pdb
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\obj\Debug\BasicTree.csproj.AssemblyReference.cache
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\obj\Debug\BasicTree.csproj.CoreCompileInputs.cache
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\obj\Debug\BasicTree.exe
+C:\Users\matth\OneDrive - ADvTECH Ltd\6PROG7312\Programs\BasicTree\BasicTree\obj\Debug\BasicTree.pdb
