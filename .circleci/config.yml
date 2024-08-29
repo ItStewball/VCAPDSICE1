@@ -21,6 +21,10 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - sonarcloud/scan
+
+orbs:
+  sonarcloud: sonarsource/sonarcloud@2.0.0
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
