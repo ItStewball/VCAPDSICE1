@@ -1,21 +1,22 @@
-import {MongoClient} from "mongodb"
-import dotenv from "dotenv"
-dotenv.config()
+import { MongoClient } from 'mongodb';
+import dotenv from 'dotenv';
+import { connect } from 'http2';
+dotenv.config();
 
-const connectionstring = process.env.ATLAS_URI || ""
+const connectionString = process.env.ATLAS_URI || "";
 
-console.log("ConnectionString " + connectionstring)
+console.log(connectionString);
 
-const Client = new MongoClient(connectionstring)
+const client = new MongoClient(connectionString);
 
-let conn
+let conn;
 try{
-    conn = await Client.connect()
-    console.log('MongoDb is CONNECTEDDDD!!!!')
-}catch(e){
+    conn = await client.connect();
+    console.log('mongodb is connected!') 
+}catch (e){
     console.error(e)
 }
 
-let db = Client.db("users")
+let db = client.db("users");
 
 export default db
